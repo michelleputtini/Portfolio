@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio – Michelle Puttini</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="nav-bar">
+    <div class="logo">Michelle Puttini</div>
+    <nav class="menu">
+      <a href="#editorial">Editorial</a>
+      <a href="#web">Web</a>
+      <a href="#contact" class="highlight">Get in touch</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <canvas id="glyph-canvas"></canvas>
+    <div class="hero-content">
+      <h1 class="hero-title">Michelle Puttini</h1>
+      <div class="subtitle">Designer & Online Creator based in Ticino, Switzerland</div>
+    </div>
+    <div class="scroll-indicator">Scroll ↓</div>
+  </section>
+
+  <!-- Editorial Section -->
+  <section id="editorial" class="container">
+    <h2 class="section-title" data-number="01">Editorial</h2>
+    <div class="project reveal">
+      <div class="project-text">
+        <h3 class="project-title">Manifesto per 'Emergenza Terra'</h3>
+        <p class="project-info">Magazine Design – 2024</p>
+        <p>Campaign promoting a series of conferences on the climate emergency held at SUPSI.</p>
+      </div>
+      <div class="project-media">
+        <img src="assets/01.png" alt="Manifesto per Emergenza Terra" />
+      </div>
+    </div>
+
+    <div class="project reveal">
+      <div class="project-text">
+        <h3 class="project-title">Manuale d'uso al disturbo bipolare</h3>
+        <p class="project-info">Book Layout – 2023</p>
+        <p>A helpful book that describes how to interact with someone struggling with bipolar disorder.</p>
+      </div>
+      <div class="project-media">
+        <img src="assets/02.png" alt="Manuale d'uso al disturbo bipolare" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Web Section -->
+  <section id="web" class="container">
+    <h2 class="section-title" data-number="02">Web</h2>
+    <div class="project reveal">
+      <div class="project-text">
+        <h3 class="project-title">Cinema Forum website</h3>
+        <p class="project-info">Responsive Web Design – 2025</p>
+        <p>Graphic design for a platform offering online movie reviews. Original, simple, but with distinctive and recognizable touches.</p>
+      </div>
+      <div class="project-media">
+        <img src="assets/03.png" alt="Cinema Forum Website" />
+      </div>
+    </div>
+
+    <div class="project reveal">
+      <div class="project-text">
+        <h3 class="project-title">Cinema Forum App</h3>
+        <p class="project-info">Mobile App UI – 2024</p>
+        <p>Responsive App from the previous website project.</p>
+      </div>
+      <div class="project-media">
+        <img src="assets/04.png" alt="Cinema Forum App" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container contact-section">
+    <div class="contact-left">
+      <form>
+        <label for="email">Your email</label>
+        <input type="email" id="email" placeholder="your@email.com" required />
+
+        <label for="message">Your message</label>
+        <textarea id="message" placeholder="Write something…" required></textarea>
+
+        <label for="file" class="file-label">Attach a file</label>
+        <input type="file" id="file" />
+
+        <button type="submit">Send</button>
+      </form>
+    </div>
+    <div class="contact-right">
+      <h2 class="section-title">Get in touch</h2>
+      <p>If you want to work with me, don’t hesitate to write —<br />
+        I can't wait to create something together.<br />
+        <strong>michelleputtini@gmail.com</strong>
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Michelle Puttini. All rights reserved.
+  </footer>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
