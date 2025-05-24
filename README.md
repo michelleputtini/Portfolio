@@ -8,5 +8,5 @@ Landing page realizzata con HTML, CSS e JavaScript per presentare una selezione 
 - Approccio tipografico ispirato alla grafica svizzera
 
 > Anno accademico: 2024/25  
-> Corso: LABIII per Interaction Design, SUPSI
+> Corso: LABIII per Interaction Design, SUPSI  
 > [Link al progetto](https://michelleputtini.github.io/Portfolio/)
