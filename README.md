@@ -9,5 +9,4 @@ Landing page realizzata con HTML, CSS e JavaScript per presentare una selezione 
 
 > Anno accademico: 2024/25  
 > Corso: LABIII per Interaction Design, SUPSI
-
-Link al progetto: 
+> [Link al progetto](https://michelleputtini.github.io/Portfolio/)
